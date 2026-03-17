@@ -7,7 +7,6 @@ Thanks for helping grow this list. Contributions are welcome via pull request.
 This list covers tools, SDKs, protocols, and infrastructure for **AI agent communication** — specifically how agents send and receive messages with humans and other systems. Categories include:
 
 - Email APIs and parsers
-- SMS, voice, and telephony
 - MCP servers (communication-focused)
 - Webhook ingestion and delivery
 - Inter-agent protocols and orchestration

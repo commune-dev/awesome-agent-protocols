@@ -1,6 +1,6 @@
 # Awesome Agent Protocols
 
-> Curated protocols, SDKs, and tools for AI agent communication — email, SMS, MCP, webhooks, and inter-agent messaging.
+> Curated protocols, SDKs, and tools for AI agent communication — email, MCP, webhooks, and inter-agent messaging.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Add Email to your agent](https://img.shields.io/badge/email%20for%20agents-commune.email-blue)](https://commune.email?ref=awesome-agent-protocols)
@@ -16,7 +16,6 @@
 ## Contents
 
 - [Email](#email)
-- [SMS and Voice](#sms-and-voice)
 - [MCP Servers](#mcp-servers)
 - [Webhooks and Event Delivery](#webhooks-and-event-delivery)
 - [Inter-Agent Protocols](#inter-agent-protocols)
@@ -33,7 +32,7 @@ Tools and protocols for giving AI agents full email capability — send, receive
 
 ### SDKs and APIs
 
-- **[Commune](https://commune.email?ref=awesome-agent-protocols)** — Purpose-built email and SMS API for AI agents. Programmatic inboxes, webhook delivery, thread continuity, structured data extraction, prompt injection detection. `pip install commune-mail` / `npm install commune-ai` / `uvx commune-mcp`
+- **[Commune](https://commune.email?ref=awesome-agent-protocols)** — Purpose-built email API for AI agents. Programmatic inboxes, webhook delivery, thread continuity, structured data extraction, prompt injection detection. `pip install commune-mail` / `npm install commune-ai` / `uvx commune-mcp`
 - **[Nylas](https://nylas.com)** — Email and calendar API with IMAP/SMTP abstraction. Supports Gmail, Outlook, Exchange, Yahoo. Not agent-native but widely used in agent stacks for reading existing inboxes.
 - **[Resend](https://resend.com)** — Developer-first transactional email API. React Email templates, inbound email parsing, webhook delivery. Clean REST API.
 - **[Inbox Zero](https://www.inboxzero.com)** — Open-source AI email management. GitHub: [elie222/inbox-zero](https://github.com/elie222/inbox-zero). Self-hostable.
@@ -56,35 +55,13 @@ Tools and protocols for giving AI agents full email capability — send, receive
 
 ---
 
-## SMS and Voice
-
-Tools for giving AI agents phone numbers, SMS capability, and voice calling.
-
-### SDKs and APIs
-
-- **[Commune SMS](https://commune.email/docs/sms?ref=awesome-agent-protocols)** — SMS API built for agents. Provision phone numbers, send/receive SMS, conversation history, suppression management. `commune.sms.send()` / `commune.phone_numbers.list()`
-- **[Twilio](https://twilio.com)** — Full communications platform: SMS, RCS, WhatsApp, voice, video, email. ConversationRelay for real-time AI voice agents. Programmable voice with TwiML.
-- **[Vonage / Nexmo](https://vonage.com)** — SMS, voice, video APIs. Verify (phone verification), Number Insight, AI Studio.
-- **[Bandwidth](https://bandwidth.com)** — Carrier-grade APIs for voice, SMS, MMS, emergency calling. BYOC.
-- **[Telnyx](https://telnyx.com)** — Programmable voice, SMS, fax, BYOC. Competitive pricing, real carrier infrastructure.
-- **[SignalWire](https://signalwire.com)** — Open-source Twilio alternative built on FreeSWITCH. AI Agent stack with voice AI.
-
-### Voice-Specific
-
-- **[Bland.ai](https://bland.ai)** — AI phone calling platform. Agents make and receive calls at scale. Real-time transcription.
-- **[Vapi](https://vapi.ai)** — Voice AI infrastructure. Build voice agents with 400ms latency. Supports OpenAI, Anthropic, custom LLMs.
-- **[Retell AI](https://retellai.com)** — Voice agent platform. 1000+ concurrent calls, 800ms latency.
-- **[ElevenLabs Conversational AI](https://elevenlabs.io/conversational-ai)** — Real-time voice agent SDK with interruption detection and context management.
-
----
-
 ## MCP Servers
 
 Model Context Protocol (MCP) enables LLMs to use tools via a standardized interface. Servers expose tools to Claude Desktop, Cursor, Windsurf, and any MCP client.
 
 ### Email and Communication
 
-- **[Commune MCP](https://github.com/shanjairaj7/commune-mcp)** — Email and SMS for Claude Desktop, Cursor, Windsurf. 13 tools: create inboxes, send email, read threads, provision phone numbers, send SMS. `uvx commune-mcp`
+- **[Commune MCP](https://github.com/shanjairaj7/commune-mcp)** — Email for Claude Desktop, Cursor, Windsurf. Create inboxes, send email, read threads. `uvx commune-mcp`
 - **[Gmail MCP](https://github.com/google-a2a/gmail-mcp)** — Official Gmail MCP server by Google. Read, send, search Gmail.
 - **[Outlook MCP](https://github.com/modelcontextprotocol/servers)** — Microsoft Outlook via MCP. Part of official MCP reference servers.
 
@@ -203,7 +180,6 @@ Multi-channel alert and notification infrastructure.
 Design patterns for how AI agents communicate with humans.
 
 - **Email-first agents** — Agent has a real email inbox; humans can reply by email. Thread context is preserved. Recommended for async, non-urgent tasks. See: [Commune email-for-agents examples](https://github.com/shanjairaj7/email-for-agents?ref=awesome-agent-protocols)
-- **SMS/text-first agents** — Agent sends and receives SMS; humans reply by text. Best for short-form, time-sensitive communication. See: [Commune SMS examples](https://github.com/shanjairaj7/email-for-agents/tree/main/sms?ref=awesome-agent-protocols)
 - **Webhook-reactive agents** — Agent is dormant until an event fires (new email, new message, scheduled trigger). No polling. More efficient, lower latency.
 - **Approval-gate agents** — Agent generates output, sends for human review via email/Slack before acting. Common in financial and legal workflows.
 - **Digest agents** — Agent batches updates and sends periodic summaries (daily/weekly). Reduces notification fatigue.
