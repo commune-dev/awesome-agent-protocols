@@ -135,6 +135,7 @@ Protocols and frameworks for agents to communicate with other agents.
 - **[A2A (Agent-to-Agent)](https://github.com/google-deepmind/agent-to-agent)** — Google DeepMind's open protocol for AI agents to communicate. Agent discovery, capability negotiation, task handoff.
 - **[MCP (Model Context Protocol)](https://modelcontextprotocol.io)** — Anthropic's standard for LLM-tool integration. Increasingly used for agent-to-tool and agent-to-agent comms.
 - **[ANP (Agent Network Protocol)](https://github.com/agent-network-protocol/ANP)** — Open protocol for decentralized agent communication. JSON-LD, W3C DID-based identity.
+- **[Pilot Protocol](https://pilotprotocol.network)** — Open-source overlay network giving agents a permanent virtual address, encrypted UDP tunnels, NAT traversal, and an explicit per-peer trust model. Handles transport, addressing, and trust rather than message schema.
 
 ### Orchestration Frameworks
 
