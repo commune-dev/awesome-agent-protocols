@@ -146,11 +146,12 @@ Protocols and frameworks for agents to communicate with other agents.
 
 ### Message Passing
 
-- **[Redis Pub/Sub](https://redis.io/docs/manual/pubsub/)** — Message broadcasting between agent instances.
-- **[RabbitMQ](https://rabbitmq.com)** — Message broker for agent task queuing and distribution.
-- **[NATS](https://nats.io)** — Lightweight messaging for distributed agent systems. Sub-millisecond delivery.
 - **[BullMQ](https://bullmq.io)** — Redis-based job queue for Node.js. Reliable background task handling for agents.
 - **[Celery](https://celeryq.dev)** — Distributed task queue for Python agents. Widely used in CrewAI/LangChain deployments.
+- **[NATS](https://nats.io)** — Lightweight messaging for distributed agent systems. Sub-millisecond delivery.
+- **[OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay)** — Open-source CLI that routes keyed request/response calls from teammates or other agents to an existing local agent over a trusted LAN. The publisher keeps source, prompts, dependencies, and credentials local.
+- **[RabbitMQ](https://rabbitmq.com)** — Message broker for agent task queuing and distribution.
+- **[Redis Pub/Sub](https://redis.io/docs/manual/pubsub/)** — Message broadcasting between agent instances.
 
 ---
 
