@@ -35,6 +35,7 @@ Tools and protocols for giving AI agents full email capability — send, receive
 
 - **[Commune](https://commune.email?ref=awesome-agent-protocols)** — Purpose-built email and SMS API for AI agents. Programmatic inboxes, webhook delivery, thread continuity, structured data extraction, prompt injection detection. `pip install commune-mail` / `npm install commune-ai` / `uvx commune-mcp`
 - **[Nylas](https://nylas.com)** — Email and calendar API with IMAP/SMTP abstraction. Supports Gmail, Outlook, Exchange, Yahoo. Not agent-native but widely used in agent stacks for reading existing inboxes.
+- **[Bavimail](https://bavimail.com)** — Email API built for AI agents. Provision inboxes and domains by API call, send and receive with in-thread replies, webhook inbound parsing, and a first-class MCP server (12 tools). Docs: [bavimail.com/docs](https://bavimail.com/docs).
 - **[Resend](https://resend.com)** — Developer-first transactional email API. React Email templates, inbound email parsing, webhook delivery. Clean REST API.
 - **[Inbox Zero](https://www.inboxzero.com)** — Open-source AI email management. GitHub: [elie222/inbox-zero](https://github.com/elie222/inbox-zero). Self-hostable.
 - **[SendGrid](https://sendgrid.com)** — Twilio's email API. Transactional + marketing. SMTP relay and HTTP API. Not agent-native.
