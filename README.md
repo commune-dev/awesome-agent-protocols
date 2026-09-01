@@ -49,6 +49,7 @@ Tools and protocols for giving AI agents full email capability — send, receive
 
 ### Parsers and Tools
 
+- **[Agent Outbound Guard](https://github.com/Kndll33/agent-outbound-guard)** — Zero-dependency pre-send linter for agent-generated email payloads. Checks recipients, idempotency keys, unresolved placeholders, exported line numbers, and likely secrets before an email API call.
 - **[mail-parser](https://github.com/nicedoc/mail-parser)** — Python email parsing library.
 - **[email-reply-parser](https://github.com/github/email_reply_parser)** — Extract just the reply portion from threaded email (GitHub's version).
 - **[flanker](https://github.com/mailgun/flanker)** — Mailgun's email address + MIME parsing library (Python).
