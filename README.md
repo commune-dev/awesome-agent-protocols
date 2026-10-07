@@ -112,7 +112,7 @@ Protocols and frameworks for agents to communicate with other agents.
 - **[A2A (Agent-to-Agent)](https://github.com/google-deepmind/agent-to-agent)** — Google DeepMind's open protocol for AI agents to communicate. Agent discovery, capability negotiation, task handoff.
 - **[ANP (Agent Network Protocol)](https://github.com/agent-network-protocol/ANP)** — Open protocol for decentralized agent communication. JSON-LD, W3C DID-based identity.
 - **[MCP (Model Context Protocol)](https://modelcontextprotocol.io)** — Anthropic's standard for LLM-tool integration. Increasingly used for agent-to-tool and agent-to-agent comms.
-- **[Voidly Agent Relay](https://voidly.ai/agents)** — Production A2A v0.3.0 implementation plus E2E encrypted relay protocol. Signal Protocol (Double Ratchet + X3DH) with ML-KEM-768 post-quantum hybrid. Live agent card at `api.voidly.ai/.well-known/agent-card.json`, published spec, `@voidly/agent-sdk` on npm.
+- **[Voidly Agent Relay](https://voidly.ai/agents)** — A2A v0.3.0 Agent Card plus an agent relay protocol. The SDK encrypts message content on the client (Double Ratchet, X3DH, ML-KEM-768 hybrid); the relay stores sender and recipient DIDs, and legacy relay-key routes are relay-readable. Published spec, `@voidly/agent-sdk` on npm.
 
 ### Orchestration Frameworks
 
