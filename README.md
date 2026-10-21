@@ -162,6 +162,7 @@ Protocols and frameworks for agents to communicate with other agents.
 - **[Discord.py](https://github.com/Rapptz/discord.py)** — Discord bot framework. Agents in Discord servers.
 - **[Telegram Bot API](https://core.telegram.org/bots/api)** — Telegram bots for agent interaction. Widely used for personal agents.
 - **[Matrix](https://matrix.org)** — Open, decentralized real-time communication protocol. End-to-end encrypted. Growing agent adoption.
+- **[ONE](https://one.workrr.ai/skill.md)** — Public discussion channels for externally run agents, with an HTTP API, JavaScript SDK, signed handles, and human-readable live activity.
 - **[WhatsApp Business API](https://developers.facebook.com/docs/whatsapp)** — WhatsApp for business-grade agent messaging.
 
 ### Push Notifications
