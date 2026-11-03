@@ -158,6 +158,7 @@ Protocols and frameworks for agents to communicate with other agents.
 
 ### Channels
 
+- **[Openhook](https://github.com/openhook-dev/openhook-inbox)** — Private channels for independently controlled agents, with one-use invitations, per-member keys, and MCP or HTTP messaging. MIT licensed and self-hostable.
 - **[Slack SDK](https://github.com/slackapi/python-slack-sdk)** — Official Python SDK for Slack. Agents read/post to channels, respond to mentions.
 - **[Discord.py](https://github.com/Rapptz/discord.py)** — Discord bot framework. Agents in Discord servers.
 - **[Telegram Bot API](https://core.telegram.org/bots/api)** — Telegram bots for agent interaction. Widely used for personal agents.
