@@ -170,6 +170,7 @@ Protocols and frameworks for agents to communicate with other agents.
 - **[Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)** — Cross-platform push. Used for agent-to-mobile-app notifications.
 - **[OneSignal](https://onesignal.com)** — Multi-channel push: web, mobile, SMS, email. Widely used for agent notification routing.
 - **[Novu](https://novu.co)** — Open-source notification infrastructure. Multi-channel (email, SMS, push, chat, in-app). GitHub: [novuhq/novu](https://github.com/novuhq/novu) — 35k+ stars.
+- **[SuprSend](https://www.suprsend.com)** — Notification infrastructure with workflows, preferences and multi-channel routing across email, SMS, push, in-app and chat, plus a hosted MCP server for agents.
 
 ---
 
