@@ -68,6 +68,7 @@ Tools for giving AI agents phone numbers, SMS capability, and voice calling.
 - **[Bandwidth](https://bandwidth.com)** — Carrier-grade APIs for voice, SMS, MMS, emergency calling. BYOC.
 - **[Telnyx](https://telnyx.com)** — Programmable voice, SMS, fax, BYOC. Competitive pricing, real carrier infrastructure.
 - **[SignalWire](https://signalwire.com)** — Open-source Twilio alternative built on FreeSWITCH. AI Agent stack with voice AI.
+- **[MeiSIM USA](https://www.meisimusa.com/guides/phone-number-for-ai-agent.html)**: Real US mobile numbers on the T-Mobile network for AI agents. Incoming texts pushed to a webhook or read over the API, replies from the same number, voice over SIP, MCP server.
 
 ### Voice-Specific
 
